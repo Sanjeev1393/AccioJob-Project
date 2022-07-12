@@ -58,6 +58,7 @@ i{
 }
 i:hover{
     opacity: 1;
+    cursor: pointer;
 }
 .carousel{
     background-color: #ef8172;
@@ -115,6 +116,6 @@ i:hover{
         height: fit-content;  
     }
     .navbar-collapse{
-        text-align: right;
+        text-align: left;
     }
 }
