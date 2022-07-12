@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+}
+.header_section{
+    background-color:#ff4c68 ;
+    height: 60vh;
+    width: 100%;
+}
+.header_inner{
+    border: 2px solid black;
+    padding: 40px 75px 30px 75px;
+}
+nav{
+    border: 2px solid yellow;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 200px;
+}
+.nav_titles{
+    display: flex;
+    width: 300px;
+    /* background-color: white; */
+    justify-content: space-between;
+    padding-top: 25px;
+    font-size: x-large;
+}
+.header_main{
+    display: flex;
+    border: 2px solid black;
+    height: 70%;
+    padding: 0px 279px;
+    flex-wrap: wrap;
+}
+.header_main_left{
+    flex: 0.5;
+    border: 2px solid blue;
+    /* display: flex;
+    flex-direction: column; */
+
+}
+.header_main_right{
+    flex: 0.5;
+    border: 2px solid yellow;
+}
+.landing_text{
+    margin-top: 1.8rem;
+    font-size: 3.5rem;
+    color: white;
+   font-weight: 500;
+}
+.tindog{
+    font-size: 3.5rem;
+    border: 2px solid blue;
+    color: white;
+}
+.apple_btn{
+    margin-top: 50px;
+    padding: 12px 25px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.android_btn{
+    margin-top: 50px;
+    padding: 12px 25px;
+    margin-left: 20px;
+    font-size: 20px;
+    color: white;
+    background-color:transparent ;
+    border: 1px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.header_fav{
+    color: white;
+    margin-right: 10px;
+}
+.android_btn:hover{
+    background-color: black;
+    color: white;
+}
+.apple_btn:hover{
+    background-color: white;
+    color: black;
+}
+.header_img{
+    width: 200px;
+    height: 300px;
+    margin: 20px;
+    
+}

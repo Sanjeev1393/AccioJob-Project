@@ -1,0 +1,120 @@
+body{
+    text-align: center;
+    font-family: "Montserrat";
+}
+.first-section{
+    background-color: #ff4c68 ;
+    height: 60vh;
+    padding: 3% 10%;
+}
+.container-fluid{
+    padding-left: 0rem;
+}
+.navbar-brand{
+    font-size: 3rem ;
+    font-weight: 600;
+    font-family: 'Ubuntu', sans-serif;
+}
+.navbar-collapse{
+    flex-grow: 0;
+}
+.heading-text{
+    font-size: 2.5rem;
+    font-weight: 300;
+    color: white;
+    text-align: start;
+    font-family: 'Montserrat', sans-serif;
+}
+.heading-btn{
+    float: left;
+    
+}
+.apple-icon{
+    color: white;
+}
+.android-icon{
+    color: white;
+}
+.first-section-img{
+    width: 45%;
+    transform: rotate(20deg);
+    position: relative;
+}
+#first-img{
+    float:left;
+}
+.features-section{
+    position: relative;
+    background-color:white;
+    width: 100%;
+    height: 25rem;
+    padding: 7% 10%;
+    /* border: 5px solid black; */
+    
+}
+i{
+    color: #ef8172;
+    opacity: 0.8;
+}
+i:hover{
+    opacity: 1;
+}
+.carousel{
+    background-color: #ef8172;
+}
+.carousel-item{
+     padding: 7% 7% 5% 7%;
+}
+.slide-img{
+    height: 8rem;
+    border-radius: 10rem;
+    margin: 1.8rem auto;
+}
+.slide-text{
+    line-height: 1.5;
+    font-family: "Montserrat-Bold";
+}
+.company-img{
+    width: 15%;
+}
+.pricing-section{
+    padding: 5% 10%;
+}
+.card-title{
+    font-size: 2.5rem;
+    font-family: "Montserrat-Bold";
+}
+.sign-up-btn{
+    width: 100%;
+}
+.download-section{
+    background-color: #ff4c68;
+    padding: 7% 10%;
+}
+@media (max-width: 992px) {
+    .heading-text {
+        text-align: center;
+    }
+    .first-section{
+        height: fit-content;
+    }
+    .heading-btn{
+        float: none;
+    }
+    
+    .first-section-img{
+        position: relative;
+        transform: rotate(0deg);
+        margin-top: 2rem;
+        width: 50%;
+       left: 25%;
+        
+    }
+    .features-section{
+        position: static;
+        height: fit-content;  
+    }
+    .navbar-collapse{
+        text-align: right;
+    }
+}

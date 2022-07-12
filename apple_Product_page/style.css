@@ -1,0 +1,134 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: #90EE90;
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   /* border: 2px solid rebeccapurple; */
+}
+.product_details{
+    height: 600px;
+    width: 600px;
+    background-color:white;
+    position: absolute;
+    display: flex;
+    border-radius: 8px;
+}
+.product_image{
+    height: 500px;
+    width: 260px;
+    position: relative;
+    left: -195px;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 10px 10px 20px -10px grey;
+    border-radius: 8px;
+    
+}
+.details_first{
+    margin: 0%;
+    flex: 0.45; /* instead of width and height we can use flex direcly as its parent class details having flex property*/
+}
+.details_second{
+    margin: 0%;
+    flex: 0.55;
+    padding-left: 20px;
+}
+.product_title{
+  
+    margin-top: 30px;
+}
+.product_code{
+  
+    font-size: 12px;
+    opacity: 0.4;
+}
+.cost_text{
+    color: red;
+    font-size: 20px;
+}
+.price_text{
+    color: red;
+    font-size: 80px;
+    padding-left: 35px;
+}
+
+.image_container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.small_apple{
+     margin: 3px 3px;
+    width: 45px;
+    height: 45px;
+}
+.small_apple:hover{
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#apple_one{
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.btn{
+    background-color:#CD5C5C ;
+    color: white;
+    font-size:large;
+    padding: 15px 30px;
+    border: #CD5C5C;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 10px 10px 20px -10px grey; /*box generator can also be used*/
+}
+.product_image_sec1{
+    flex: 0.95;
+    background-color: #ADFF2F;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    background:radial-gradient(#E2E5DC 30%, #ADFF2F 70%);
+    
+}
+.product_image_sec2{
+    flex: 0.2;
+    background-color:white;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.main_apple{
+    position: absolute;
+    margin-top: 50px;
+    left: -80px;
+    height: 250px;
+    width: 250px;
+    filter: saturate(120%) contrast(120%) hue-rotate(10deg) drop-shadow(1px 20px 10px rgba(0,0,0,0.3));  /*filter - for color of apple*/
+}
+.icon1 {
+    color: white;
+    margin: 15px;
+    cursor: pointer;
+}
+
+.icon2 {
+    float: right;
+    color: white;
+    margin: 15px;
+    cursor: pointer;
+}
+.sec2_apple{
+    width: 40px;
+    height: 40px;
+    margin: 18px 0px 0px 15px;
+    border: 0.1px solid grey;
+    transform: scale(0.9);
+    border-radius: 2px;
+}
+.benefits{
+    font-size: 14px;
+}
