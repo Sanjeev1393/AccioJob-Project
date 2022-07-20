@@ -72,7 +72,13 @@ h1{
         justify-content: center;
     }
     .play-btn, .reset-btn{
+       border: none;
         padding: 0.5rem;
+       
+    }
+    .play-btn, .reset-btn, .pause-btn:focus{
+        outline: none;
+        border: none;
     }
     .play-btn-img, .reset-btn-img, .pause-btn-img{
         width: 85%;
