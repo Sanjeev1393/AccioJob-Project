@@ -5,8 +5,8 @@
 }
 
 body{
-    background-color:  #ff4c68;
-    color: white;
+    background-color: #ff4c68;
+    color: #444;
     font-family: "Poppins",sans-serif;
     display: flex;
     flex-direction: column;
